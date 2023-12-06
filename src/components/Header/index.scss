@@ -1,0 +1,28 @@
+.header{
+    padding: 10px 0;
+    &__container{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__navbar{
+        ul{
+            display: flex;
+            li{
+                padding: 10px;
+            }
+        }
+    }
+    &__right{
+        ul{
+            display: flex;
+            li{
+                padding: 10px;
+            }
+        }
+    }
+}
